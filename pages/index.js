@@ -21,7 +21,7 @@ import {
 
 export default function Home({ headerData, heroData, navData }) {
   return (
-    <div className='overflow-hidden max-w-[1600px] mx-auto bg-page'>
+    <div className='h-[2000px] overflow-hidden max-w-[1600px] mx-auto bg-page'>
       <Hero
         heroData={heroData}
         headerData={headerData}

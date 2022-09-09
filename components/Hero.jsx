@@ -31,7 +31,10 @@ const Hero = ({ headerData, heroData, navData }) => {
       >
         {/* header */}
         <div className=''>
-          <Header />
+          <Header
+            headerData={headerData}
+            navData={navData}
+          />
         </div>
 
         {/* title */}
@@ -92,7 +95,7 @@ const Hero = ({ headerData, heroData, navData }) => {
 
         {/* boy img */}
         <motion.div
-          className='lg:flex absolute bottom-0 right-[380px] z-10'
+          className='hidden lg:flex absolute bottom-0 right-[380px] z-10'
           variants={boyAnim}
         >
           <Image
