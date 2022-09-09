@@ -1,0 +1,23 @@
+{
+  "headerData": {
+    "logoImgV1": "/images/header/logoV1.svg",
+    "logoImgV2": "/images/header/logoV2.svg",
+    "btnText": "Contact us"
+  },
+
+  "navData": [
+    { "name": "About", "href": "/" },
+    { "name": "How to", "href": "/" },
+    { "name": "Faqs", "href": "/" }
+  ],
+
+  "heroData": {
+    "title": "Your awesome traffic permit consultant.",
+    "sceneImg": "/images/hero/scene.svg",
+    "boyImg": "/images/hero/boy.svg",
+    "girlImg": "/images/hero/girl.svg",
+    "truckImg": "/images/hero/truck.svg",
+    "cloud": "/images/hero/cloud.png",
+    "btnText": "Get Started"
+  }
+}
